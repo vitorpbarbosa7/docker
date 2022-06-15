@@ -10,11 +10,11 @@ RUN apt-get update && apt-get install -y curl \
 RUN mkdir home/codes
 
 # username
-ENV USER vpb-canvas
+ENV USER vpb
 # shell to use
 ENV SHELL /bin/bash
 # logname to appear?
-ENV LOGNAME vpb-canv
+ENV LOGNAME vpb
 
 # Execution
 

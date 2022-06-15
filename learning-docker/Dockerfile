@@ -1,4 +1,4 @@
-FROM python:3
+FROM Debian 11
 RUN  mkdir WORK_REPO
 RUN  cd  WORK_REPO
 WORKDIR  /WORK_REPO
